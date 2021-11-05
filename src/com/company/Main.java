@@ -5,12 +5,13 @@ public class Main {
     public static void main(String[] args) {
 
         car newcar=new car();
-        newcar.name="Ferrari";
-        newcar.color="blue";
-        newcar.doors=3;
-        newcar.engineCapacity="698887cc";
 
-        System.out.println(newcar.color);
+        newcar.name="Lamboo";
+        newcar.engineCapacity="45678cc";
+        newcar.doors=7;
+        newcar.model="aventador";
+
+        System.out.println(newcar.model);
 
 
     }
